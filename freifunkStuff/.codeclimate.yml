@@ -1,0 +1,19 @@
+languages:
+  PHP: true
+engines:
+  csslint:
+    enabled: true
+  phpmd:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - php
+ratings:
+  paths:
+  - "**.css"
+  - "**.php"
+
+exclude_paths:
+- lib/*

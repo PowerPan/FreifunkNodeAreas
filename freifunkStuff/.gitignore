@@ -1,0 +1,11 @@
+.idea/
+Freifunk-Node-Clients-stats.iml
+rrdData/gateways/*
+rrdData/nodes/*
+rrdData/system/*
+graphs/gateways/*
+graphs/nodes/*
+graphs/system/*
+nodedata/*
+!.gitkeep
+config.json
